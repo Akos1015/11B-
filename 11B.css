@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e2e2;
+}
+
+header {
+    background: #0300a7;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    height: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.szin-gomb {
+    background-color: #000000; 
+    color: white; 
+    margin-top: auto; 
+    padding: 15px 20px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.szin-gomb:hover {
+    background-color: #ffc400; 
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    background: ee0505;
+    color: rgb(255, 0, 0);
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.kep2{
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+    height: 150px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.kep1{
+
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    height: 150px;
+    display: flex;
+    pointer-events: none;
+    mix-blend-mode: unset;
+    border-radius: 20px;
+}
+
+.kepek{
+   position: absolute;
+   top: 30px;
+   left: 20px;
+   right: auto;
+   bottom: auto;
+   border: 7px #1505ee; 
+}
+
+.kepek1{
+    position: absolute;
+    top: 30px;
+    right: 20px;;
+    left: auto;
+    bottom: auto;
+    border: 7px #000000;
+}
+
+.secret{
+    opacity: 0;
+  
+}
