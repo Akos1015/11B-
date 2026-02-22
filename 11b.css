@@ -107,6 +107,6 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .mobil-only {
-        display: block;
+        display: contents;
     }
 }
