@@ -104,3 +104,9 @@ footer {
     text-align: center;
     margin-top: 0px;
 }
+
+@media only screen and (max-width: 768px) {
+    .mobil-only {
+        display: block;
+    }
+}
