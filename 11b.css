@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #bdb9b9;
+    background-color: #4a4a4a;
 }
 
 header {
@@ -65,7 +65,7 @@ section {
 }
 
 .szin-gomb {
-    background-color: #bdb9b9; 
+    background-color: #4a4a4a; 
     color: white; 
     margin-top: auto; 
     padding: 15px 20px; 
