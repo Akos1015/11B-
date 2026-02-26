@@ -7,14 +7,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1b1b1b;
+    background-color: #bdb9b9;
 }
 
 header {
     display: flex;
     flex-direction: column; /* A képek és szöveg függőleges elrendezése */
     align-items: center;
-    background-color: #da0000;
+    background-color: #ff4e26;
     color: white;
     padding: 20px;
 }
@@ -65,7 +65,7 @@ section {
 }
 
 .szin-gomb {
-    background-color: #1b1b1b; 
+    background-color: #bdb9b9; 
     color: white; 
     margin-top: auto; 
     padding: 15px 20px; 
